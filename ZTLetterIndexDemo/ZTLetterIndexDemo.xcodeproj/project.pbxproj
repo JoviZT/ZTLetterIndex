@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B1D089A1E8CFC24005E841A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D08991E8CFC24005E841A /* main.m */; };
+		7B1D089D1E8CFC24005E841A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D089C1E8CFC24005E841A /* AppDelegate.m */; };
+		7B1D08A01E8CFC24005E841A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D089F1E8CFC24005E841A /* ViewController.m */; };
+		7B1D08A31E8CFC24005E841A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D08A11E8CFC24005E841A /* Main.storyboard */; };
+		7B1D08A51E8CFC24005E841A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D08A41E8CFC24005E841A /* Assets.xcassets */; };
+		7B1D08A81E8CFC24005E841A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D08A61E8CFC24005E841A /* LaunchScreen.storyboard */; };
+		7B1D08B31E8CFC24005E841A /* ZTLetterIndexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D08B21E8CFC24005E841A /* ZTLetterIndexDemoTests.m */; };
+		7B1D08BE1E8CFC24005E841A /* ZTLetterIndexDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D08BD1E8CFC24005E841A /* ZTLetterIndexDemoUITests.m */; };
+		7B1D08D21E8CFD3C005E841A /* ZTLetterIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D08D11E8CFD3C005E841A /* ZTLetterIndex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B1D08AF1E8CFC24005E841A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B1D088D1E8CFC24005E841A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B1D08941E8CFC24005E841A;
+			remoteInfo = ZTLetterIndexDemo;
+		};
+		7B1D08BA1E8CFC24005E841A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B1D088D1E8CFC24005E841A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B1D08941E8CFC24005E841A;
+			remoteInfo = ZTLetterIndexDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B1D08951E8CFC24005E841A /* ZTLetterIndexDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTLetterIndexDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1D08991E8CFC24005E841A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B1D089B1E8CFC24005E841A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B1D089C1E8CFC24005E841A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B1D089E1E8CFC24005E841A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B1D089F1E8CFC24005E841A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B1D08A21E8CFC24005E841A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B1D08A41E8CFC24005E841A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B1D08A71E8CFC24005E841A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B1D08A91E8CFC24005E841A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1D08AE1E8CFC24005E841A /* ZTLetterIndexDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTLetterIndexDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1D08B21E8CFC24005E841A /* ZTLetterIndexDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTLetterIndexDemoTests.m; sourceTree = "<group>"; };
+		7B1D08B41E8CFC24005E841A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1D08B91E8CFC24005E841A /* ZTLetterIndexDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTLetterIndexDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1D08BD1E8CFC24005E841A /* ZTLetterIndexDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTLetterIndexDemoUITests.m; sourceTree = "<group>"; };
+		7B1D08BF1E8CFC24005E841A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1D08D01E8CFD3C005E841A /* ZTLetterIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTLetterIndex.h; sourceTree = "<group>"; };
+		7B1D08D11E8CFD3C005E841A /* ZTLetterIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTLetterIndex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B1D08921E8CFC24005E841A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D08AB1E8CFC24005E841A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D08B61E8CFC24005E841A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B1D088C1E8CFC24005E841A = {
+			isa = PBXGroup;
+			children = (
+				7B1D08CF1E8CFD3C005E841A /* ZTLetterIndex */,
+				7B1D08971E8CFC24005E841A /* ZTLetterIndexDemo */,
+				7B1D08B11E8CFC24005E841A /* ZTLetterIndexDemoTests */,
+				7B1D08BC1E8CFC24005E841A /* ZTLetterIndexDemoUITests */,
+				7B1D08961E8CFC24005E841A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B1D08961E8CFC24005E841A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B1D08951E8CFC24005E841A /* ZTLetterIndexDemo.app */,
+				7B1D08AE1E8CFC24005E841A /* ZTLetterIndexDemoTests.xctest */,
+				7B1D08B91E8CFC24005E841A /* ZTLetterIndexDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B1D08971E8CFC24005E841A /* ZTLetterIndexDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B1D089B1E8CFC24005E841A /* AppDelegate.h */,
+				7B1D089C1E8CFC24005E841A /* AppDelegate.m */,
+				7B1D089E1E8CFC24005E841A /* ViewController.h */,
+				7B1D089F1E8CFC24005E841A /* ViewController.m */,
+				7B1D08A11E8CFC24005E841A /* Main.storyboard */,
+				7B1D08A41E8CFC24005E841A /* Assets.xcassets */,
+				7B1D08A61E8CFC24005E841A /* LaunchScreen.storyboard */,
+				7B1D08A91E8CFC24005E841A /* Info.plist */,
+				7B1D08981E8CFC24005E841A /* Supporting Files */,
+			);
+			path = ZTLetterIndexDemo;
+			sourceTree = "<group>";
+		};
+		7B1D08981E8CFC24005E841A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1D08991E8CFC24005E841A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B1D08B11E8CFC24005E841A /* ZTLetterIndexDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B1D08B21E8CFC24005E841A /* ZTLetterIndexDemoTests.m */,
+				7B1D08B41E8CFC24005E841A /* Info.plist */,
+			);
+			path = ZTLetterIndexDemoTests;
+			sourceTree = "<group>";
+		};
+		7B1D08BC1E8CFC24005E841A /* ZTLetterIndexDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B1D08BD1E8CFC24005E841A /* ZTLetterIndexDemoUITests.m */,
+				7B1D08BF1E8CFC24005E841A /* Info.plist */,
+			);
+			path = ZTLetterIndexDemoUITests;
+			sourceTree = "<group>";
+		};
+		7B1D08CF1E8CFD3C005E841A /* ZTLetterIndex */ = {
+			isa = PBXGroup;
+			children = (
+				7B1D08D01E8CFD3C005E841A /* ZTLetterIndex.h */,
+				7B1D08D11E8CFD3C005E841A /* ZTLetterIndex.m */,
+			);
+			name = ZTLetterIndex;
+			path = ../ZTLetterIndex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B1D08941E8CFC24005E841A /* ZTLetterIndexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1D08C21E8CFC24005E841A /* Build configuration list for PBXNativeTarget "ZTLetterIndexDemo" */;
+			buildPhases = (
+				7B1D08911E8CFC24005E841A /* Sources */,
+				7B1D08921E8CFC24005E841A /* Frameworks */,
+				7B1D08931E8CFC24005E841A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTLetterIndexDemo;
+			productName = ZTLetterIndexDemo;
+			productReference = 7B1D08951E8CFC24005E841A /* ZTLetterIndexDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B1D08AD1E8CFC24005E841A /* ZTLetterIndexDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1D08C51E8CFC24005E841A /* Build configuration list for PBXNativeTarget "ZTLetterIndexDemoTests" */;
+			buildPhases = (
+				7B1D08AA1E8CFC24005E841A /* Sources */,
+				7B1D08AB1E8CFC24005E841A /* Frameworks */,
+				7B1D08AC1E8CFC24005E841A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B1D08B01E8CFC24005E841A /* PBXTargetDependency */,
+			);
+			name = ZTLetterIndexDemoTests;
+			productName = ZTLetterIndexDemoTests;
+			productReference = 7B1D08AE1E8CFC24005E841A /* ZTLetterIndexDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B1D08B81E8CFC24005E841A /* ZTLetterIndexDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1D08C81E8CFC24005E841A /* Build configuration list for PBXNativeTarget "ZTLetterIndexDemoUITests" */;
+			buildPhases = (
+				7B1D08B51E8CFC24005E841A /* Sources */,
+				7B1D08B61E8CFC24005E841A /* Frameworks */,
+				7B1D08B71E8CFC24005E841A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B1D08BB1E8CFC24005E841A /* PBXTargetDependency */,
+			);
+			name = ZTLetterIndexDemoUITests;
+			productName = ZTLetterIndexDemoUITests;
+			productReference = 7B1D08B91E8CFC24005E841A /* ZTLetterIndexDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1D088D1E8CFC24005E841A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zt;
+				TargetAttributes = {
+					7B1D08941E8CFC24005E841A = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					7B1D08AD1E8CFC24005E841A = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B1D08941E8CFC24005E841A;
+					};
+					7B1D08B81E8CFC24005E841A = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B1D08941E8CFC24005E841A;
+					};
+				};
+			};
+			buildConfigurationList = 7B1D08901E8CFC24005E841A /* Build configuration list for PBXProject "ZTLetterIndexDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B1D088C1E8CFC24005E841A;
+			productRefGroup = 7B1D08961E8CFC24005E841A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B1D08941E8CFC24005E841A /* ZTLetterIndexDemo */,
+				7B1D08AD1E8CFC24005E841A /* ZTLetterIndexDemoTests */,
+				7B1D08B81E8CFC24005E841A /* ZTLetterIndexDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B1D08931E8CFC24005E841A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1D08A81E8CFC24005E841A /* LaunchScreen.storyboard in Resources */,
+				7B1D08A51E8CFC24005E841A /* Assets.xcassets in Resources */,
+				7B1D08A31E8CFC24005E841A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D08AC1E8CFC24005E841A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D08B71E8CFC24005E841A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1D08911E8CFC24005E841A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1D08D21E8CFD3C005E841A /* ZTLetterIndex.m in Sources */,
+				7B1D08A01E8CFC24005E841A /* ViewController.m in Sources */,
+				7B1D089D1E8CFC24005E841A /* AppDelegate.m in Sources */,
+				7B1D089A1E8CFC24005E841A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D08AA1E8CFC24005E841A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1D08B31E8CFC24005E841A /* ZTLetterIndexDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D08B51E8CFC24005E841A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1D08BE1E8CFC24005E841A /* ZTLetterIndexDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B1D08B01E8CFC24005E841A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B1D08941E8CFC24005E841A /* ZTLetterIndexDemo */;
+			targetProxy = 7B1D08AF1E8CFC24005E841A /* PBXContainerItemProxy */;
+		};
+		7B1D08BB1E8CFC24005E841A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B1D08941E8CFC24005E841A /* ZTLetterIndexDemo */;
+			targetProxy = 7B1D08BA1E8CFC24005E841A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B1D08A11E8CFC24005E841A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1D08A21E8CFC24005E841A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B1D08A61E8CFC24005E841A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1D08A71E8CFC24005E841A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B1D08C01E8CFC24005E841A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B1D08C11E8CFC24005E841A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B1D08C31E8CFC24005E841A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZTLetterIndexDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTLetterIndexDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B1D08C41E8CFC24005E841A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZTLetterIndexDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTLetterIndexDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B1D08C61E8CFC24005E841A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZTLetterIndexDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTLetterIndexDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTLetterIndexDemo.app/ZTLetterIndexDemo";
+			};
+			name = Debug;
+		};
+		7B1D08C71E8CFC24005E841A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZTLetterIndexDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTLetterIndexDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTLetterIndexDemo.app/ZTLetterIndexDemo";
+			};
+			name = Release;
+		};
+		7B1D08C91E8CFC24005E841A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZTLetterIndexDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTLetterIndexDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZTLetterIndexDemo;
+			};
+			name = Debug;
+		};
+		7B1D08CA1E8CFC24005E841A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZTLetterIndexDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTLetterIndexDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZTLetterIndexDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B1D08901E8CFC24005E841A /* Build configuration list for PBXProject "ZTLetterIndexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1D08C01E8CFC24005E841A /* Debug */,
+				7B1D08C11E8CFC24005E841A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1D08C21E8CFC24005E841A /* Build configuration list for PBXNativeTarget "ZTLetterIndexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1D08C31E8CFC24005E841A /* Debug */,
+				7B1D08C41E8CFC24005E841A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B1D08C51E8CFC24005E841A /* Build configuration list for PBXNativeTarget "ZTLetterIndexDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1D08C61E8CFC24005E841A /* Debug */,
+				7B1D08C71E8CFC24005E841A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B1D08C81E8CFC24005E841A /* Build configuration list for PBXNativeTarget "ZTLetterIndexDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1D08C91E8CFC24005E841A /* Debug */,
+				7B1D08CA1E8CFC24005E841A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B1D088D1E8CFC24005E841A /* Project object */;
+}
