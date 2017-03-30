@@ -2,7 +2,7 @@
 
 ![img](https://github.com/JoviZT/ZTLetterIndex/raw/master/ScreenShot.gif)  
 
-###注意
+### 注意
 
 @property(nonatomic, strong) NSArray *dataArray
 
