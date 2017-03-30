@@ -1,3 +1,3 @@
 # ZTLetterIndex
 
-![img](https://github.com/JoviZT/ZTLetterIndex/ScreenShot)  
+![img](https://github.com/JoviZT/ZTLetterIndex/raw/master/ZTLetterIndex/ScreenShot)  
