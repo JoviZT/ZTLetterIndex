@@ -71,7 +71,7 @@
 @property(nonatomic, strong) UIColor *sliderColor;
 
 /**
- slider与上下Item间隙，默认3.0f
+ slider与上下Item间隙，默认4.0f
  */
 @property(nonatomic, assign) CGFloat sliderSpace;
 

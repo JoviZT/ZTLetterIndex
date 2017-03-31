@@ -31,7 +31,7 @@
         self.sliderSize = CGSizeMake(12.0f, 40.0f);
         self.sliderColor = [UIColor lightGrayColor];
         self.textFont = [UIFont fontWithName:@"PingFangSC-Medium" size:11.0f];
-        self.sliderSpace = 3.0f;
+        self.sliderSpace = 4.0f;
     }
     return self;
 }
