@@ -31,6 +31,7 @@
         self.sliderSize = CGSizeMake(12.0f, 40.0f);
         self.sliderColor = [UIColor lightGrayColor];
         self.textFont = [UIFont fontWithName:@"PingFangSC-Medium" size:11.0f];
+        self.sliderSpace = 3.0f;
     }
     return self;
 }
@@ -44,10 +45,16 @@
 - (void)setupItems
 {
     _slidr = [CALayer layer];
-    _slidr.frame = CGRectMake((self.bounds.size.width - self.sliderSize.width)/2, 0, self.sliderSize.width, self.sliderSize.height);
-    _slidr.cornerRadius = _slidr.bounds.size.width/2;
-    _slidr.backgroundColor = self.sliderColor.CGColor;
+    _slidr.frame = CGRectMake((self.bounds.size.width - self.sliderSize.width)/2, 0, self.sliderSize.width, self.sliderSize.height + 2*self.sliderSpace);
+    _slidr.backgroundColor = [UIColor clearColor].CGColor;
     [self.layer addSublayer:_slidr];
+    
+    CALayer *slidrColor = [CALayer layer];
+    slidrColor = [CALayer layer];
+    slidrColor.frame = CGRectMake(0, self.sliderSpace, self.sliderSize.width, self.sliderSize.height);
+    slidrColor.cornerRadius = slidrColor.bounds.size.width/2;
+    slidrColor.backgroundColor = self.sliderColor.CGColor;
+    [_slidr addSublayer:slidrColor];
     
     [self.dataArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         UILabel *item = [[UILabel alloc] init];

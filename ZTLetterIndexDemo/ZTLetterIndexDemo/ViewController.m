@@ -43,7 +43,7 @@
         [_letterArray addObject:[NSString stringWithFormat:@"%c",c]];
     }
     
-    _letterIndex = [[ZTLetterIndex alloc] initWithFrame:CGRectMake(kScreenWidth-20, (kScreenHeight - 16*25 - 40)/2, 12, 16*25 + 40)];
+    _letterIndex = [[ZTLetterIndex alloc] initWithFrame:CGRectMake(kScreenWidth-20, (kScreenHeight - 16*25 - 40)/2, 12, 16*25 + 40 + 6)];
     _letterIndex.dataArray = _letterArray; //在其他用于展示的属性赋值之后赋值
     _letterIndex.delegate = self;
     [self.view addSubview:_letterIndex];
