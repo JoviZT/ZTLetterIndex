@@ -18,6 +18,7 @@
     NSMutableArray *_dataSource;
     NSMutableArray *_letterArray;
     ZTLetterIndex  *_letterIndex;
+    BOOL _isClick;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -29,6 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _isClick = NO;
     _dataSource = [NSMutableArray array];
     for (int i = 0; i < 26; ++i) {
         NSMutableArray *temp = [NSMutableArray array];
@@ -52,6 +54,7 @@
 #pragma mark - ZTLetterIndexDelegate
 - (void)ZTLetterIndex:(ZTLetterIndex *)indexView didSelectedItemWithIndex:(NSInteger)index
 {
+    _isClick = YES;
     [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:index] atScrollPosition:UITableViewScrollPositionTop animated:NO];
 }
 
@@ -101,8 +104,14 @@
 #pragma mark -UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    if (_isClick) {
+        return;
+    }
     NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:scrollView.contentOffset];
     [_letterIndex selectIndex:indexPath.section];
+}
+-(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    _isClick = NO;
 }
 
 @end
